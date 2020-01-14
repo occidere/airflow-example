@@ -9,7 +9,7 @@ setup(
         description='No Description',
         license='Apache 2.0',
         install_requires=[
-            'airflow'
+            'apache-airflow'
         ],
         packages=find_packages(exclude=['venv', 'doc', 'test']),
         python_requires='>=3.5',
