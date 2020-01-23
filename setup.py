@@ -17,6 +17,7 @@ setup(
             'setuptools',
             'wheel',
             'elasticsearch-curator',
+            'elasticsearch',
         ],
         packages=find_packages(exclude=['venv', 'doc', 'test']),
         python_requires='>=3.5',
