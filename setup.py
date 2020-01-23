@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-
 setup(
         name='airflow-example',
         version='1.0',
@@ -9,7 +8,15 @@ setup(
         description='No Description',
         license='Apache 2.0',
         install_requires=[
-            'apache-airflow'
+            'apache-airflow',
+            'requests',
+            'selenium',
+            'line-bot-sdk',
+            'cx_freeze',
+            'pyyaml',
+            'setuptools',
+            'wheel',
+            'elasticsearch-curator',
         ],
         packages=find_packages(exclude=['venv', 'doc', 'test']),
         python_requires='>=3.5',
@@ -24,3 +31,4 @@ setup(
             'Programming Language :: Python :: 3.7',
         ]
 )
+
