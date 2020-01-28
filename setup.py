@@ -12,7 +12,6 @@ setup(
             'requests',
             'selenium',
             'line-bot-sdk',
-            'cx_freeze',
             'pyyaml',
             'setuptools',
             'wheel',
